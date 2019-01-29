@@ -8,9 +8,7 @@ public class User {
 	private int id;
 	private String country;
 	private String name;
-	public User(){
-		id=0;
-	}
+
 	public User(int id, String name, String country){
 		this.id = id;
 		this.name = name;
